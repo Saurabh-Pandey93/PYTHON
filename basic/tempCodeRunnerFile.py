@@ -183,7 +183,7 @@ print(reversed_text)  # Output: nohtyP
 
 
 
-print("new ")
+print("new_1")
 
 
 
