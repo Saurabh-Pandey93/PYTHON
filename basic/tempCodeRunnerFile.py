@@ -176,14 +176,13 @@
 
 # # slicing with steps and how to reverse strings
 
-text = "Python"
-reversed_text = text[::-1]
-print(reversed_text)  # Output: nohtyP   
+# text = "Python"
+# reversed_text = text[::-1]
+# print(reversed_text)  # Output: nohtyP   
 
 
-
-
-print("new_1")
-
-
-
+i = "hello"
+reversed_str = ""
+for char in i:
+    reversed_str = char + reversed_str
+print(reversed_str)
