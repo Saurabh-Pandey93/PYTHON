@@ -181,8 +181,75 @@
 # print(reversed_text)  # Output: nohtyP   
 
 
-i = "hello"
-reversed_str = ""
-for char in i:
-    reversed_str = char + reversed_str
-print(reversed_str)
+# i = "hello"         #code, pseudocode and dry run
+# reversed_str = ""
+# for char in i:
+#     reversed_str = char + reversed_str
+# print(reversed_str)
+
+# name = "   Saurabh   "
+# print(name.strip())
+
+# oo = name
+# print(oo)
+
+# phrase = "hi how are you dear"
+# phrase1 = "I'm doing great"
+# print(phrase.find("dear"))
+# print(phrase.count("h"))
+# phrase1 = phrase.replace("dear","deer")
+# print(phrase1)
+
+# list = ["10", 10.0, 'ten', 10]
+# print(list[2][1])
+
+# tuple = (80, 90, 78, 49, 69)
+# for num in tuple:
+#     total = 0
+# for num in tuple:
+#     total += num
+# print(total)  
+
+# Username, following, follower, posts= ("Saurabh_Pandey", 78, 79, 0)
+# print(Username)
+# print(follower)
+# print(following)
+# print(posts)
+
+# userpro = ["abc", 45, 78, 0]
+# username, follower, following, posts = userpro
+# print("username :", username)
+# print("follower :", follower)
+# print("following :", following)
+# print("posts :", posts)
+
+# set = {1,1,1,2,3,3,4,5,5,5,6,7,575}
+# print(set)
+# for i in set:
+#     print(i)
+
+# set2 = {1,1,7,9,2,3,3,7,8,6,5,6,3,4,4}
+# print(set2)            # how to take input in list and tuple and set read about unordered set,  STL in  python 
+# set2.add("saurabh")
+# print(set2)
+# set2.remove(3)
+# print(set2)
+# set2.discard(88)
+# print(set2)
+
+
+# set = {10,20,10,30,20,40,50}
+# print(sum(set)) 
+
+# set1 = {90, 85, 75, 93, 46}
+# avg = sum(set1)/len(set1)
+# print("Average of the Marks :",avg)
+
+total = 0
+number = int(input("Enter a number (0 to stop): "))
+
+while number != 0:
+    total += number
+    number = int(input("Enter a number (0 to stop): "))
+
+print(f"Sum: {total}")   
