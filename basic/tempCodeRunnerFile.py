@@ -230,7 +230,7 @@
 
 # set2 = {1,1,7,9,2,3,3,7,8,6,5,6,3,4,4}
 # print(set2)            # how to take input in list and tuple and set read about unordered set,  STL in  python,  types of api, middleware, .env file, route, service file, git repo software engineer fundamentals 
-# set2.add("saurabh")
+# set2.add("saurabh")     # how to pass default value in pop of dictionary
 # print(set2)
 # set2.remove(3)
 # print(set2)
@@ -270,27 +270,39 @@
 
 
 # key value pairs
-info = {
-    "name": "Saurabh Pandey",
-    "followers": "93",
-    "following": "78",
-    "Post" : "7",
+# info = {
+#     "name": "Saurabh Pandey",
+#     "followers": "93",
+#     "following": "78",
+#     "Post" : "7",
     
 
+# }
+
+# print(info["name"])
+# print(info["followers"])
+# print(info["following"])
+# print(info["Post"]) 
+
+# info["name"] = "naval"
+# print(info)
+
+# pop1 = info.pop("followers") 
+# print(pop1)
+# print(info)
+# del info["name"]
+# print(info)
+# info.clear()
+# print(info)
+
+dict = {
+    "who" : "ME",
+    "why" : "IDK",
+    "good" : "Thanks"
 }
+print(dict.keys())
+print(dict.values())
+print(dict.items())
 
-print(info["name"])
-print(info["followers"])
-print(info["following"])
-print(info["Post"]) 
 
-info["name"] = "naval"
-print(info)
-
-pop1 = info.pop("followers") 
-print(pop1)
-print(info)
-del info["name"]
-print(info)
-info.clear()
-print(info)
+# Nested dictionary
