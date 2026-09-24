@@ -229,7 +229,7 @@
 #     print(i)
 
 # set2 = {1,1,7,9,2,3,3,7,8,6,5,6,3,4,4}
-# print(set2)            # how to take input in list and tuple and set read about unordered set,  STL in  python 
+# print(set2)            # how to take input in list and tuple and set read about unordered set,  STL in  python,  types of api, middleware, .env file, route, service file, git repo software engineer fundamentals 
 # set2.add("saurabh")
 # print(set2)
 # set2.remove(3)
@@ -245,11 +245,52 @@
 # avg = sum(set1)/len(set1)
 # print("Average of the Marks :",avg)
 
-total = 0
-number = int(input("Enter a number (0 to stop): "))
+# total = 0
+# number = int(input("Enter a number (0 to stop): "))
 
-while number != 0:
-    total += number
-    number = int(input("Enter a number (0 to stop): "))
+# while number != 0:
+#     total += number
+#     number = int(input("Enter a number (0 to stop): "))
 
-print(f"Sum: {total}")   
+# print(f"Sum: {total}")   
+
+
+# s1 = {1, 2, 3, 4, 5, 6}
+# s2 = {7, 8, 9, 6, 10}
+
+# print(s1.union(s2))
+# print(s1|s2)
+# print(s1.intersection(s2))
+# print(s1&s2)
+# print(s1-s2)
+# print(s1^s2)  #systematic difference
+
+# t = tuple(input("Enter elements: ").split())
+# print("tuple is :",t)
+
+
+# key value pairs
+info = {
+    "name": "Saurabh Pandey",
+    "followers": "93",
+    "following": "78",
+    "Post" : "7",
+    
+
+}
+
+print(info["name"])
+print(info["followers"])
+print(info["following"])
+print(info["Post"]) 
+
+info["name"] = "naval"
+print(info)
+
+pop1 = info.pop("followers") 
+print(pop1)
+print(info)
+del info["name"]
+print(info)
+info.clear()
+print(info)

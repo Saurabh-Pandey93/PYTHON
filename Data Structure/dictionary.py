@@ -2,7 +2,8 @@
 info = {
     "name": "Saurabh Pandey",
     "CGPA": "9.3",
-    "Subjects": ["math", "science"]
+    "Subjects": ["math", "science"],
+    
 }
 
 print(info)
