@@ -1,6 +1,6 @@
 # function help to organize code into logical blocks that perform specific tasks. 
 def f1():
-    print("Hello")
+    print("Hello World")
 
 f1()
 f1()
@@ -15,3 +15,12 @@ def square(x):
 x = float(input("Enter the number :"))
 out = square(x)
 print("The square of ", x, "is", out)
+
+def tell_ME_OUTPUT():
+    print("1")
+print("2")
+def yoyo():
+    print("gggg")
+print("3")
+yoyo()
+tell_ME_OUTPUT()
