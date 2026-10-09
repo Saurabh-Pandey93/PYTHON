@@ -2,5 +2,6 @@
     "name": "Saurabh Pandey",
     "IsTeacher": false,
     "address":  "UTTAR PRADESH",
-    "subjects": "Python"
+    "subjects": "Python",
+    "Profession": "Student"
 }
